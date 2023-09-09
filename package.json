@@ -1,0 +1,28 @@
+{
+  "name": "bluesky",
+  "version": "1.0.0",
+  "description": "Assingment",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src"
+  },
+  "author": "Kalra Rahul",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.405.0",
+    "aws-sdk": "^2.1452.0",
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "csv": "^6.3.3",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pg-promise": "^11.5.4",
+    "redis": "^4.6.8",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "type": "module"
+}
